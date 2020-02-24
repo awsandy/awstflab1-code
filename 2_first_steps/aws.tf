@@ -2,7 +2,7 @@ provider "aws" {
   region                  = "eu-west-2"   #London
   shared_credentials_file = "~/.aws/credentials"
   profile                 = "default"
-  version = ">= 2.19"
+  version = ">= 2.20"
 }
 
 #terraform {
